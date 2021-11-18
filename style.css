@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width:720px) {
+      
+
+header{
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 80px;
+    
+}
+
+.img_fond>img{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: -455;
+}
+
+header{
+    position: relative;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav>h2{
+    color: white;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.search>input{
+    margin-right: 15px;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.titre{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+   
+}
+
+.titre>h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 115px;
+    z-index: 1;
+    position: relative;
+}
+
+.titre>h2{
+    color: rgba(0, 0, 0, 0.589);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 115px;
+   position: absolute;
+   top: 40%;
+   left: 30%;
+     z-index: -1;
+}
+ 
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+        width: 100%;
+        position: absolute;
+        right: 20%;
+        left: 10px;
+        
+        bottom: 20%;
+     }
+     
+     .card{
+        background-color: white;
+        width: 90%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      
+    }
+
+     .card>img{
+        max-width: 100%;
+        
+        border-bottom: none;
+    }
+    
+    .card>h2{
+        margin: 5px 10px 0 5px;
+        font-size: 1.1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #5e676a;
+    }
+    
+    .card>p{
+         color:#5e676a;
+        font-size: .9rem;
+        margin: 5px 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .titre{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+   
+}
+  
+    .titre>h2{
+        color: rgba(0, 0, 0, 0.589);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 6rem;
+       position: absolute;
+       top: 40%;
+       left: 30%;
+         z-index: -1;
+    }
+}
+
+@media screen and (min-width:1080px){
+    
+
+header{
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 80px;
+    
+}
+
+.img_fond>img{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: -455;
+}
+
+header{
+    position: relative;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav>h2{
+    color: white;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.search>input{
+    margin-right: 15px;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.titre{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+   
+}
+
+.titre>h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 115px;
+    z-index: 1;
+    position: relative;
+}
+
+.titre>h2{
+    color: rgba(0, 0, 0, 0.589);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 115px;
+   position: absolute;
+   top: 40%;
+   left: 30%;
+     z-index: -1;
+}
+
+.cards{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 15px;
+   width: 60%;
+   position: absolute;
+   right: 20%;
+   left: 20%;
+   
+   bottom: 10%;
+}
+
+.card{
+    background-color: white;
+    margin: 0 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+}
+
+.card>img{
+    max-width: 100%;
+    /* border-radius: 10px; */
+    border-bottom: none;
+}
+
+.card>h2{
+    margin: 10px 20px 0 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 34px;
+}
+
+.card>p{
+    font-size: 1.1rem;
+    margin: 10px 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+footer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+footer>p{
+    font-family: 'Anton', sans-serif;
+    margin-right: 15px;
+    margin-left: 5px;
+ 
+}
+}

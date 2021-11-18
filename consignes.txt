@@ -1,0 +1,15 @@
+Réalisez une maquette responsive, déclinée de la maquette desktop nommée "export.jpg".
+Réalisez le logo de la souris en haut à gauche, exporté sous format .svg
+Réalisez l'intégration responsive de cette maquette.
+
+Informations : 
+- Les deux seules polices utilisées sont Source Sans Pro et Anton Regular.
+- La taille de la police du menu est de 34px, celle du titre de 115px, le nom de la personne dans la carte est de 27px. Les autres polices sont à 18px.
+- En mode "responsive", le menu doit se transformer en menu "burger", qui arrivera de la gauche et prendra la majorité de (ou toute) la largeur de l'écran (choix).
+- Le mode "responsive" doit s'activer à partir de 768px de large, pour un minimum de 480px de large.
+- Vous pouvez vous aider d'un framework comme Bootstrap, Foundation ou Material Design.
+
+Rendu :
+- Une maquette au format .psd ou jpg
+- Un logo au format .svg
+- Les fichiers .html, .css et .js correspondant à l'intégration responsive de la maquette.
